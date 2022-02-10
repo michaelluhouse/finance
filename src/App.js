@@ -1,13 +1,21 @@
 import React from 'react';
-// import { Routes, Route } from 'react-router-dom';
+import { Routes, Route } from 'react-router-dom';
 import './App.css';
 import HomePage from './pages/homepage/homepage.jsx';
+import One from './pages/one/one.jsx'
+
+const One = () => (
+  <div>
+    <h1>第一章节</h1>
+  </div>
+)
 
 function App() {
   return (
     <div>
-      <HomePage />
-        {/* <Route exact path='/' component={HomePage} />
+      <Route exact path='/' component={HomePage} />
+      <Route exact path='/1' component={One} />
+
         {/* <Route path='/1' component={one} />
         <Route path='/2' component={2} />
         <Route path='/3' component={3} />
