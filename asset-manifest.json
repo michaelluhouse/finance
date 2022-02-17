@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/finance/static/css/main.a70cd288.css",
+    "main.js": "/finance/static/js/main.9b184f51.js",
+    "static/media/17.jpeg": "/finance/static/media/17.7dbd5430fdbb4f3c1b51.jpeg",
+    "static/media/19.png": "/finance/static/media/19.fbbb4db3883dc8df5f06.png",
+    "static/media/7.jpeg": "/finance/static/media/7.e76a3f2980dd0d382113.jpeg",
+    "static/media/16.jpeg": "/finance/static/media/16.8114fcdd36f4a5eef612.jpeg",
+    "static/media/18.jpeg": "/finance/static/media/18.ab16107b46f97d9ffd5c.jpeg",
+    "static/media/8.jpeg": "/finance/static/media/8.411ee7c5c975c6264aa3.jpeg",
+    "static/media/12.jpeg": "/finance/static/media/12.bb9f1f68b998037629e0.jpeg",
+    "static/media/9.jpeg": "/finance/static/media/9.39e202bd60e768ce3a35.jpeg",
+    "static/media/6.jpeg": "/finance/static/media/6.ea915ef2c435b9174e07.jpeg",
+    "static/media/4.jpeg": "/finance/static/media/4.d34e5e58020c31154e9d.jpeg",
+    "static/media/11.jpeg": "/finance/static/media/11.4804f2f61567d1592a37.jpeg",
+    "static/media/5.jpeg": "/finance/static/media/5.18beb0d13655bb08801c.jpeg",
+    "static/media/15.jpeg": "/finance/static/media/15.4c3d7bc7a15ec246d11b.jpeg",
+    "static/media/10.jpeg": "/finance/static/media/10.28fa60daf0c885a963e2.jpeg",
+    "static/media/20.jpeg": "/finance/static/media/20.7b3f8af0e7d43aa25b0b.jpeg",
+    "static/media/1.jpeg": "/finance/static/media/1.58c07f5928f4a8db593b.jpeg",
+    "static/media/3.jpeg": "/finance/static/media/3.60e155a896d80df311a0.jpeg",
+    "static/media/14.jpeg": "/finance/static/media/14.b5c91192975a08a7b5ab.jpeg",
+    "index.html": "/finance/index.html",
+    "main.a70cd288.css.map": "/finance/static/css/main.a70cd288.css.map",
+    "main.9b184f51.js.map": "/finance/static/js/main.9b184f51.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a70cd288.css",
+    "static/js/main.9b184f51.js"
+  ]
+}
