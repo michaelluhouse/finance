@@ -1,10 +1,12 @@
 import React from 'react';
+import { Link } from "react-router-dom";
+
 // import { Card, Typography } from 'antd';
 import './menu-item.scss';
 // const { Meta } = Card;
 // const { Text } = Typography;
 
-const MenuItem = ({ title, imageUrl, subtitle1, subtitle2, size }) => (
+const MenuItem = ({ title, imageUrl, subtitle1, subtitle2, size, id }) => (
 
     <div className={`${size} menu-item`}>
         <div 
@@ -12,11 +14,16 @@ const MenuItem = ({ title, imageUrl, subtitle1, subtitle2, size }) => (
         style={{
             backgroundImage: `url(${imageUrl})`
         }} />
+        
         <div className='content'>
-            <h1 className='title'>{title.toUpperCase()}</h1>
-            <span className='subtitle'>{subtitle1}</span>
-            <span className='subtitle'>{subtitle2}</span>
-            <span className='subtitle'>_</span>
+            <onClick>
+                <Link to={`/${id}`}>
+                    <h1 className='title'>{title.toUpperCase()}</h1>
+                    <span className='subtitle'>{subtitle1}</span>
+                    <div>_</div>
+                    <span className='subtitle'>{subtitle2.toUpperCase()}</span>
+                </Link>
+            </onClick>
         </div>
     </div>
     // <Card
@@ -33,3 +40,4 @@ const MenuItem = ({ title, imageUrl, subtitle1, subtitle2, size }) => (
 );
 
 export default MenuItem;
+
